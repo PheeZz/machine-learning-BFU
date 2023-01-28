@@ -6,24 +6,24 @@ first you need to install all required libraries:
 
 1. create virtual environment
 
-`python -m venv venv` if you are under windows
+**_windows_**</br>
+`python -m venv .venv`
 
-or
+**_linux_**</br>
+`python3 -m venv .venv`
 
-`python3 -m venv .venv` if you are under linux
+2. activate virtual environment</br>
 
-2. activate virtual environment
+**_windows_**</br>
+`.venv\Scripts\activate`
 
-`.venv\Scripts\activate` if you are under windows
+**_linux_**</br>
+`source venv/bin/activate`
 
-or
+3. to install all required libraries run</br>
 
-`source venv/bin/activate` if you are under linux
+**_windows_**</br>
+`pip install -r requirements.txt`
 
-3. to install all required libraries run:
-
-`pip install -r requirements.txt` if you are under windows
-
-or
-
-`pip3 install -r requirements.txt` if you are under linux
+**_linux_**</br>
+`pip3 install -r requirements.txt`
