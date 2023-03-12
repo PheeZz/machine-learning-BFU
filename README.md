@@ -18,7 +18,7 @@ first you need to install all required libraries:
 `.venv\Scripts\activate`
 
 **_linux_**</br>
-`source venv/bin/activate`
+`source .venv/bin/activate`
 
 3. to install all required libraries run</br>
 
